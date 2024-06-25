@@ -15,10 +15,12 @@ const styles = {
   ulStyle: {
     listStylePosition: 'outside',
     paddingLeft: 20,
+    display: 'inline-block',
   },
   subtitleContainerStyle: {
     marginTop: 10,
     marginBottom: 10,
+    display: 'inline-block',
   },
   subtitleStyle: {
     display: 'inline-block',

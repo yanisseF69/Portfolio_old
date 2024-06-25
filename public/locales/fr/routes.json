@@ -1,0 +1,29 @@
+{
+    "sections": [
+        {
+            "component": "About",
+            "path": "/about",
+            "headerTitle": "À propos de moi"
+        },
+        {
+            "component": "Skills",
+            "path": "/skills",
+            "headerTitle": "Compétences"
+        },
+        {
+            "component": "Education",
+            "path": "/education",
+            "headerTitle": "Éducation"
+        },
+        {
+            "component": "Experience",
+            "path": "/experience",
+            "headerTitle": "Expérience"
+        },
+        {
+            "component": "Projects",
+            "path": "/projects",
+            "headerTitle": "Projets"
+        }
+    ]
+}

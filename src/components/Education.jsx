@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useContext } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Chrono } from 'react-chrono';
 import { Container } from 'react-bootstrap';
 import PropTypes from 'prop-types';
@@ -10,6 +11,7 @@ import FallbackSpinner from './FallbackSpinner';
 import '../css/education.css';
 
 function Education(props) {
+  const { i18n } = useTranslation();
   const theme = useContext(ThemeContext);
   const { header } = props;
   const [data, setData] = useState(null);
@@ -17,12 +19,15 @@ function Education(props) {
   const [mode, setMode] = useState('VERTICAL_ALTERNATING');
 
   useEffect(() => {
-    fetch(endpoints.education, {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
+    const loadData = async () => {
+      try {
+        const response = await fetch(endpoints(i18n.language).education);
+        const result = await response.json();
+        setData(result);
+      } catch (error) {
+        console.error('Error fetching education data:', error);
+      }
+    };
 
     if (window?.innerWidth < 576) {
       setMode('VERTICAL');
@@ -37,7 +42,8 @@ function Education(props) {
     } else {
       setWidth('50vw');
     }
-  }, []);
+    loadData();
+  }, [i18n.language]);
 
   return (
     <>
@@ -58,7 +64,7 @@ function Education(props) {
                   secondary: theme.accentColor,
                   cardBgColor: theme.chronoTheme.cardBgColor,
                   cardForeColor: theme.chronoTheme.cardForeColor,
-                  titleColor: theme.chronoTheme.titleColor,
+                  titleColor: theme.chronoTheme.accentColor,
                 }}
               >
                 <div className="chrono-icons">

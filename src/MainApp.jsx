@@ -1,4 +1,5 @@
 import React, { useState, useEffect, Suspense } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Switch, Route } from 'react-router-dom';
 import FallbackSpinner from './components/FallbackSpinner';
 import NavBarWithRouter from './components/NavBar';
@@ -6,16 +7,22 @@ import Home from './components/Home';
 import endpoints from './constants/endpoints';
 
 function MainApp() {
+  const { i18n } = useTranslation();
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.routes, {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
-  }, []);
+    const loadData = async () => {
+      try {
+        const response = await fetch(endpoints(i18n.language).routes);
+        const result = await response.json();
+        setData(result);
+      } catch (error) {
+        console.error('Error fetching routes data:', error);
+      }
+    };
+
+    loadData();
+  }, [i18n.language]);
 
   return (
     <div className="MainApp">

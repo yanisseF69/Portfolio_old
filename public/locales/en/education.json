@@ -1,0 +1,27 @@
+{
+    "education":[
+        {
+            "title": "Sep 2023 - Today",
+            "cardTitle": "Master's Degree in Computer Science",
+            "cardSubtitle":"Université Lyon 1",
+            "cardDetailedText": "Specialization: Image, Development and 3D Technologies (ID3D)",
+            "icon" : {
+                "src": "images/education/ULCB.png"
+            }
+        },
+        {
+            "title": "Sep 2020 - Jul 2023",
+            "cardTitle": "Computer Science degree",
+            "cardSubtitle":"Université Lyon 1",
+            "icon" : {
+                "src": "images/education/ULCB.png"
+            }
+        },
+        {
+            "title": "Sep 2016 - Jul 2019",
+            "cardTitle": "High School",
+            "cardSubtitle":"Lycée Blaise Pascal, Charbonnières-Les-Bains",
+            "cardDetailedText": "Scientific Baccalaureate"
+        }
+    ]
+}

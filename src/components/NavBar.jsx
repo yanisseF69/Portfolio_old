@@ -1,10 +1,12 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
 import React, { useEffect, useState, useContext } from 'react';
 import { withRouter } from 'react-router';
 import { NavLink } from 'react-router-dom';
 import styled, { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
 import ThemeToggler from './ThemeToggler';
+import LanguageSelector from './LanguageSelector';
 
 const styles = {
   logoStyle: {
@@ -37,18 +39,24 @@ const InternalNavLink = styled(NavLink)`
 `;
 
 const NavBar = () => {
+  const { i18n } = useTranslation();
   const theme = useContext(ThemeContext);
   const [data, setData] = useState(null);
   const [expanded, setExpanded] = useState(false);
 
   useEffect(() => {
-    fetch(endpoints.navbar, {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
-  }, []);
+    const loadData = async () => {
+      try {
+        const response = await fetch(endpoints(i18n.language).navbar);
+        const result = await response.json();
+        setData(result);
+      } catch (error) {
+        console.error('Error fetching navbar data:', error);
+      }
+    };
+
+    loadData();
+  }, [i18n.language]);
 
   return (
     <Navbar
@@ -109,6 +117,9 @@ const NavBar = () => {
               )))}
           </Nav>
           <ThemeToggler
+            onClick={() => setExpanded(false)}
+          />
+          <LanguageSelector
             onClick={() => setExpanded(false)}
           />
         </Navbar.Collapse>

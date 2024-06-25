@@ -6,32 +6,32 @@
     },
     "sections": [
         {
-            "title": "Home",
+            "title": "Accueil",
             "href": "/"
         },
         {
-            "title": "About",
+            "title": "À propos",
             "href": "/about"
         },
         {
-            "title": "Skills",
+            "title": "Compétences",
             "href": "/skills"
         },
         {
-            "title": "Education",
+            "title": "Éducation",
             "href": "/education"
         },
         {
-            "title": "Experience",
+            "title": "Expérience",
             "href": "/experience"
         },
         {
-            "title": "Projects",
+            "title": "Projets",
             "href": "/projects"
         },
         {
-            "title": "Resume",
-            "href": "https://drive.google.com/file/d/13kaPsdMNDsM4LV9g7m5-E5PTildp-yYf/view?usp=sharing",
+            "title": "CV",
+            "href": "https://drive.google.com/file/d/1fpyer9vBI2qpPHRXQb2b1yEK8K6k-Nvz/view?usp=sharing",
             "type": "link"
         }
     ]

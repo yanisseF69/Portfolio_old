@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Container, Row, Button } from 'react-bootstrap';
 import { ThemeContext } from 'styled-components';
 import PropTypes from 'prop-types';
@@ -18,19 +19,25 @@ const styles = {
 };
 
 const Projects = (props) => {
+  const { i18n } = useTranslation();
   const theme = useContext(ThemeContext);
   const { header } = props;
   const [data, setData] = useState(null);
   const [showMore, setShowMore] = useState(false);
 
   useEffect(() => {
-    fetch(endpoints.projects, {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
-  }, []);
+    const loadData = async () => {
+      try {
+        const response = await fetch(endpoints(i18n.language).projects);
+        const result = await response.json();
+        setData(result);
+      } catch (error) {
+        console.error('Error fetching projects data:', error);
+      }
+    };
+
+    loadData();
+  }, [i18n.language]);
   const numberOfItems = showMore && data ? data.length : 6;
   return (
     <>

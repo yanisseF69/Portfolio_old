@@ -1,0 +1,27 @@
+{
+    "education":[
+        {
+            "title": "Septembre 2023 - Aujourd'hui",
+            "cardTitle": "Master Informatique",
+            "cardSubtitle":"Université Lyon 1",
+            "cardDetailedText": "Parcours Image, Développement et Technologies 3D (ID3D)",
+            "icon" : {
+                "src": "images/education/ULCB.png"
+            }
+        },
+        {
+            "title": "Septembre 2020 - Juillet 2023",
+            "cardTitle": "Licence Informatique",
+            "cardSubtitle":"Université Lyon 1",
+            "icon" : {
+                "src": "images/education/ULCB.png"
+            }
+        },
+        {
+            "title": "Septembre 2016 - Juillet 2019",
+            "cardTitle": "Lycée Général",
+            "cardSubtitle":"Lycée Blaise Pascal, Charbonnières-Les-Bains",
+            "cardDetailedText": "Baccalauréat Scientifique"
+        }
+    ]
+}

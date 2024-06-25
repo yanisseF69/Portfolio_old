@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import Typewriter from 'typewriter-effect';
 import Fade from 'react-reveal';
 import endpoints from '../constants/endpoints';
@@ -22,23 +23,32 @@ const styles = {
 };
 
 function Home() {
+  const { i18n } = useTranslation();
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch(endpoints.home, {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
-  }, []);
+    const loadData = async () => {
+      try {
+        const response = await fetch(endpoints(i18n.language).home);
+        const result = await response.json();
+        setData(result);
+      } catch (error) {
+        console.error('Error fetching home data:', error);
+      }
+    };
+
+    loadData();
+  }, [i18n.language]);
 
   return data ? (
     <Fade>
       <div style={styles.mainContainer}>
         <h1 style={styles.nameStyle}>{data?.name}</h1>
         <div style={{ flexDirection: 'row' }}>
-          <h2 style={styles.inlineChild}>I&apos;m&nbsp;</h2>
+          <h2 style={styles.inlineChild}>
+            {data?.verb}
+            &nbsp;
+          </h2>
           <Typewriter
             options={{
               loop: true,

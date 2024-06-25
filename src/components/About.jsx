@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import ReactMarkdown from 'react-markdown';
 import { Container, Col, Row } from 'react-bootstrap';
 import PropTypes from 'prop-types';
@@ -25,6 +26,7 @@ const styles = {
 };
 
 function About(props) {
+  const { i18n } = useTranslation();
   const { header } = props;
   const [data, setData] = useState(null);
 
@@ -35,13 +37,18 @@ function About(props) {
   );
 
   useEffect(() => {
-    fetch(endpoints.about, {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
-  }, []);
+    const loadData = async () => {
+      try {
+        const response = await fetch(endpoints(i18n.language).about);
+        const result = await response.json();
+        setData(result);
+      } catch (error) {
+        console.error('Error fetching about data:', error);
+      }
+    };
+
+    loadData();
+  }, [i18n.language]);
 
   return (
     <>

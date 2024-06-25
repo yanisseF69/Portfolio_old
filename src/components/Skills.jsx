@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import ReactMarkdown from 'react-markdown';
 import PropTypes from 'prop-types';
 import Fade from 'react-reveal';
@@ -20,6 +21,7 @@ const styles = {
 };
 
 function Skills(props) {
+  const { i18n } = useTranslation();
   const { header } = props;
   const [data, setData] = useState(null);
 
@@ -30,13 +32,18 @@ function Skills(props) {
   );
 
   useEffect(() => {
-    fetch(endpoints.skills, {
-      method: 'GET',
-    })
-      .then((res) => res.json())
-      .then((res) => setData(res))
-      .catch((err) => err);
-  }, []);
+    const loadData = async () => {
+      try {
+        const response = await fetch(endpoints(i18n.language).skills);
+        const result = await response.json();
+        setData(result);
+      } catch (error) {
+        console.error('Error fetching skills data:', error);
+      }
+    };
+
+    loadData();
+  }, [i18n.language]);
 
   return (
     <>

@@ -11,8 +11,9 @@ i18n
     react: {
       useSuspense: false,
     },
-    supportedLngs: ['en', 'fr'],
-    fallbackLng: 'fr',
+    lng: 'fr',
+    supportedLngs: ['fr', 'en'],
+    fallbackLng: 'en',
     debug: true,
     interpolation: {
       escapeValue: false,

@@ -10,7 +10,7 @@ headers = []
 [functions."*"]
 
 [build]
-publish = "/home/yanisse/Documents/Workspace/dev-portfolio/build"
+publish = "build"
 publishOrigin = "ui"
 command = "npm install --legacy-peer-deps && npm run build"
 commandOrigin = "ui"

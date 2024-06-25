@@ -1,14 +1,15 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
+            "title": "Développeur php/symfony",
+            "subtitle": "Association Mantes Solidarité",
+            "workType": "Stage",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Ajout de plusieurs fonctionnalités.",
+                "Présentation régulière du travail fourni.",
+                "Travail collaboratif."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "05/2023 - 07/2023"
         },
         {
             "title": "Software Engineer",

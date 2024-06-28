@@ -1,5 +1,5 @@
 {
-    "intro": "Durant mon cursus scolaire et mon temps libre, j'ai découvert de nombreux langages et outils informatiques.\nVoici une liste de ceux dont je me suis familiarisé:",
+    "intro": "Durant mon cursus scolaire et mon temps libre, j'ai découvert de nombreux langages et outils informatiques.\nVoici une liste de ceux dont je me suis familiarisé :",
     "skills": [{
      
             "title": "Languages & Bases de données",
@@ -56,7 +56,7 @@
             ]
         },
         {
-            "title" : "Outils & Platformes",
+            "title" : "Outils & Plates-formes",
             "items": [
                 {
                     "icon": "images/skills/git.png",

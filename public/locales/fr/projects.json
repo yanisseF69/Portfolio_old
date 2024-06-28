@@ -22,10 +22,6 @@
             "bodyText": "- Programmé en C++ à l'aide de la librairie EV3Dev.\n - Usage de OpenCV pour le traitement d'images.\n - Fusion de 4 caméras pour obtenir une vue du dessus.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/theo97490/projet-idefix"
-                },
-                {
                     "text": "Rapport",
                     "href": "https://drive.google.com/file/d/18F66mEsn_PUwOeHiapZw20r92D4pxEnA/view?usp=sharing"
                 }

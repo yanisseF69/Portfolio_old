@@ -34,6 +34,25 @@
             ]
         },
         {
+            "image" : "images/projects/drawing.png",
+            "title": "Site de prédictions de dessins",
+            "bodyText": "- Découverte du deep learning pour la classification d'images.\n - Usage de Tensorflow pour la construction de l'architecture et de l'entraînement.\n - Affichage du pourcentage de prédiction du TOP 3.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/yanisseF69/Projet_info_2023"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "Deep learning",
+                "IA",
+                "Tensorflow",
+                "Keras",
+                "OpenCV"
+            ]
+        },
+        {
             "image" : "images/projects/voronoi.png",
             "title": "Génération de diagramme de Voronoï",
             "bodyText": "- Introduction aux Graphes.\n- Implémentation de l'algorithme des plus courts chemins (Dijkstra).",

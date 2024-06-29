@@ -1,33 +1,15 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
+            "title": "Développeur php/symfony",
+            "subtitle": "Association Mantes Solidarité",
+            "workType": "Stage",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Addition of multiple features:\n - Payment form.\n - Donation management interface for administrators.",
+                "Regular presentation of the work provided.",
+                "Collaborative work."
             ],
-            "dateText": "06/20XX – Present"
-        },
-        {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
-            "workDescription": [
-                "Worked on abc."
-            ],
-            "dateText": "01/20XX – 05/20XX"
-        },
-        {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
-            "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
-            ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "05/2023 – 07/2023"
         }
     ]
 }

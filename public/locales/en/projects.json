@@ -1,149 +1,72 @@
 {
+    "show" : "Show more",
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "image" : "images/projects/diaphragm.gif",
+            "title": "Recherche en imagerie médicale",
+            "bodyText": "- Segmentation automatique du diaphragme.\n - Apprentissage profond avec utilisation de la technique du **Transfer Learning**.\n - Reconstruction 3D d'organes.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
-                }
-            ],
-            "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
-            ]
-        },
-        {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
-                {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "text": "Rapport",
+                    "href": "https://drive.google.com/file/d/1pRMe1pMKN1II_Qx0jTUSkzBPcg-o3TOc/view?usp=sharing"
                 }
             ],
             "tags" : [
                 "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "IA",
+                "Tensorflow",
+                "Keras"
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
+            "image" : "images/projects/robots.jpg",
+            "title": "Robots LEGO récupérant des balles",
+            "bodyText": "- Programmé en C++ à l'aide de la librairie EV3Dev.\n - Usage de OpenCV pour le traitement d'images.\n - Fusion de 4 caméras pour obtenir une vue du dessus.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
+                    "text": "Rapport",
+                    "href": "https://drive.google.com/file/d/18F66mEsn_PUwOeHiapZw20r92D4pxEnA/view?usp=sharing"
                 }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
+                "C++",
+                "EV3Dev",
+                "OpenCV",
+                "Robotique"
             ]
         },
         {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
+            "image" : "images/projects/drawing.png",
+            "title": "Site de prédictions de dessins",
+            "bodyText": "- Découverte du deep learning pour la classification d'images.\n - Usage de Tensorflow pour la construction de l'architecture et de l'entraînement.\n - Affichage du pourcentage de prédiction du TOP 3.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
-            ]
-        },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
+                    "href": "https://github.com/yanisseF69/Projet_info_2023"
                 }
             ],
             "tags" : [
                 "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+                "Deep learning",
+                "IA",
+                "Tensorflow",
+                "Keras",
+                "OpenCV"
+            ]
+        },
+        {
+            "image" : "images/projects/voronoi.png",
+            "title": "Génération de diagrammes de Voronoï",
+            "bodyText": "- Introduction aux Graphes.\n- Implémentation de l'algorithme des plus courts chemins (Dijkstra).",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/yanisseF69/LIFAPC_Graphe"
+                }
+            ],
+            "tags" : [
+                "C++",
+                "Dijkstra"
             ]
         }
     ]

@@ -2,12 +2,16 @@
     "intro": "Durant mon cursus scolaire et mon temps libre, j'ai découvert de nombreux langages et outils informatiques.\nVoici une liste de ceux dont je me suis familiarisé :",
     "skills": [{
      
-            "title": "Languages & Bases de données",
+            "title": "Langages & Bases de données",
             "items" : [
      
                 {
                     "icon": "images/skills/c-plus-plus.svg",
                     "title": "C/C++"
+                },
+                {
+                    "icon": "images/skills/python.png",
+                    "title": "Python"
                 },
                 {
                     "icon": "images/skills/java.png",
@@ -16,10 +20,6 @@
                 {
                     "icon": "images/skills/js.png",
                     "title": "JavaScript"
-                },
-                {
-                    "icon": "images/skills/python.png",
-                    "title": "Python"
                 },
                 {
                     "icon": "images/skills/php.png",

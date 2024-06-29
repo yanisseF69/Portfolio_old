@@ -11,7 +11,6 @@ i18n
     react: {
       useSuspense: false,
     },
-    lng: 'fr',
     supportedLngs: ['fr', 'en'],
     fallbackLng: 'en',
     debug: true,
@@ -23,7 +22,7 @@ i18n
     },
     detection: {
       order: ['querystring', 'cookie'],
-      caches: ['cookie'],
+      caches: ['localStorage', 'cookie'],
     },
   });
 

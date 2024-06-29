@@ -1,8 +1,10 @@
 {
+    "show" : "Voir plus",
     "projects" : [
         {
+            "image" : "images/projects/diaphragm.gif",
             "title": "Recherche en imagerie médicale",
-            "bodyText": "- Segmentation automatique du diaphragme.\n - Apprentissage profond avec utilisation de la technique du **Transfer Learning**. ",
+            "bodyText": "- Segmentation automatique du diaphragme.\n - Apprentissage profond avec utilisation de la technique du **Transfer Learning**.\n - Reconstruction 3D d'organes.",
             "links": [
                 {
                     "text": "Rapport",
@@ -54,7 +56,7 @@
         },
         {
             "image" : "images/projects/voronoi.png",
-            "title": "Génération de diagramme de Voronoï",
+            "title": "Génération de diagrammes de Voronoï",
             "bodyText": "- Introduction aux Graphes.\n- Implémentation de l'algorithme des plus courts chemins (Dijkstra).",
             "links": [
                 {

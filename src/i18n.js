@@ -21,7 +21,7 @@ i18n
       loadPath: '/locales/{{lng}}/{{ns}}.json',
     },
     detection: {
-      order: ['querystring', 'cookie'],
+      order: ['navigator', 'cookie'],
       caches: ['localStorage', 'cookie'],
     },
   });

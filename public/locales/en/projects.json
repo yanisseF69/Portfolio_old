@@ -3,11 +3,11 @@
     "projects" : [
         {
             "image" : "images/projects/diaphragm.gif",
-            "title": "Recherche en imagerie médicale",
-            "bodyText": "- Segmentation automatique du diaphragme.\n - Apprentissage profond avec utilisation de la technique du **Transfer Learning**.\n - Reconstruction 3D d'organes.",
+            "title": "Research in medical images",
+            "bodyText": "- Automatic segmentation of the diaphragm.\n - Deep learning and usage of **Transfer Learning**.\n - 3D organ reconstruction.",
             "links": [
                 {
-                    "text": "Rapport",
+                    "text": "Report (French)",
                     "href": "https://drive.google.com/file/d/1pRMe1pMKN1II_Qx0jTUSkzBPcg-o3TOc/view?usp=sharing"
                 }
             ],
@@ -20,8 +20,8 @@
         },
         {
             "image" : "images/projects/robots.jpg",
-            "title": "Robots LEGO récupérant des balles",
-            "bodyText": "- Programmé en C++ à l'aide de la librairie EV3Dev.\n - Usage de OpenCV pour le traitement d'images.\n - Fusion de 4 caméras pour obtenir une vue du dessus.",
+            "title": "LEGO ball retrieval robots",
+            "bodyText": "- Made in C++ with EV3Dev library.\n - Usage of OpenCV for image process.\n - Merge 4 cameras to obtain a top view.",
             "links": [
                 {
                     "text": "Rapport",
@@ -32,13 +32,13 @@
                 "C++",
                 "EV3Dev",
                 "OpenCV",
-                "Robotique"
+                "Robotics"
             ]
         },
         {
             "image" : "images/projects/drawing.png",
-            "title": "Site de prédictions de dessins",
-            "bodyText": "- Découverte du deep learning pour la classification d'images.\n - Usage de Tensorflow pour la construction de l'architecture et de l'entraînement.\n - Affichage du pourcentage de prédiction du TOP 3.",
+            "title": "Drawing predictions website",
+            "bodyText": "- Discovering of deep learning for image classification.\n - Using Tensorflow for building architecture and training.\n - Display of TOP 3 prediction percentage.",
             "links": [
                 {
                     "text": "GitHub",
@@ -48,7 +48,7 @@
             "tags" : [
                 "Python",
                 "Deep learning",
-                "IA",
+                "AI",
                 "Tensorflow",
                 "Keras",
                 "OpenCV"
@@ -56,8 +56,8 @@
         },
         {
             "image" : "images/projects/voronoi.png",
-            "title": "Génération de diagrammes de Voronoï",
-            "bodyText": "- Introduction aux Graphes.\n- Implémentation de l'algorithme des plus courts chemins (Dijkstra).",
+            "title": "Voronoï diagram generation",
+            "bodyText": "- Introduction to Graphs.\n- Implementing the shortest path algorithm (Dijkstra).",
             "links": [
                 {
                     "text": "GitHub",

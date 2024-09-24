@@ -8,7 +8,7 @@
             "links": [
                 {
                     "text": "Report (French)",
-                    "href": "https://drive.google.com/file/d/1pRMe1pMKN1II_Qx0jTUSkzBPcg-o3TOc/view?usp=sharing"
+                    "href": "/Rapport_MIF11.pdf"
                 }
             ],
             "tags" : [
@@ -24,8 +24,8 @@
             "bodyText": "- Made in C++ with EV3Dev library.\n - Usage of OpenCV for image process.\n - Merge 4 cameras to obtain a top view.",
             "links": [
                 {
-                    "text": "Rapport",
-                    "href": "https://drive.google.com/file/d/18F66mEsn_PUwOeHiapZw20r92D4pxEnA/view?usp=sharing"
+                    "text": "Report (French)",
+                    "href": "/Rapport_Idefix.pdf"
                 }
             ],
             "tags" : [

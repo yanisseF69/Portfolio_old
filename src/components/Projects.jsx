@@ -38,7 +38,7 @@ const Projects = (props) => {
 
     loadData();
   }, [i18n.language]);
-  const numberOfItems = showMore && data ? data.length : 3;
+  const numberOfItems = showMore && data ? data.length : 6;
   return (
     <>
       <Header title={header} />

@@ -55,6 +55,32 @@
             ]
         },
         {
+            "image" : "images/projects/surfaces.png",
+            "title": "Curves, revolution and implicit surfaces",
+            "bodyText": "- 1rst part : Bézier et Hermite Cubique Spline curves.\n- 2nd part : coding of primitives, operations and transformations. Complex forms modeling",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/yanisseF69/Modelisation-geometrique/"
+                },
+                {
+                    "text": "Part 1 Report (French)",
+                    "href": "/Rapport_MG_1.pdf"
+                },
+                {
+                    "text": "Part 2 Report (French)",
+                    "href": "Rapport_MG_2.pdf"
+                }
+            ],
+            "tags" : [
+                "C++",
+                "QT",
+                "Geometric Modeling",
+                "Curves",
+                "Implicit surfaces"
+            ]
+        },
+        {
             "image" : "images/projects/voronoi.png",
             "title": "Voronoï diagram generation",
             "bodyText": "- Introduction to Graphs.\n- Implementing the shortest path algorithm (Dijkstra).",

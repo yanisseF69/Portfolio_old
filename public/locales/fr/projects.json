@@ -57,7 +57,7 @@
         {
             "image" : "images/projects/surfaces.png",
             "title": "Courbes, surfaces de révolution et surfaces implicites",
-            "bodyText": "- 1e partie sur les courbes de Bézier et Hermite Cubique Spline.\n- 2e partie : codage de primitives, d'opérations et de transformations. Et réalisation de formes complexes",
+            "bodyText": "- 1e partie sur les courbes de Bézier et Hermite Cubique Spline.\n- 2e partie : codage de primitives, d'opérations et de transformations. Et réalisation de formes complexes.",
             "links": [
                 {
                     "text": "GitHub",

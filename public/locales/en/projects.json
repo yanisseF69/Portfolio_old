@@ -57,7 +57,7 @@
         {
             "image" : "images/projects/surfaces.png",
             "title": "Curves, revolution and implicit surfaces",
-            "bodyText": "- 1rst part : Bézier et Hermite Cubique Spline curves.\n- 2nd part : coding of primitives, operations and transformations. Complex forms modeling",
+            "bodyText": "- 1rst part : Bézier et Hermite Cubique Spline curves.\n- 2nd part : coding of primitives, operations and transformations. Complex forms modeling.",
             "links": [
                 {
                     "text": "GitHub",

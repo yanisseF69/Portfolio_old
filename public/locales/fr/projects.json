@@ -55,6 +55,52 @@
             ]
         },
         {
+            "image" : "images/projects/genCNN.png",
+            "title": "Deep learning pour de la Génération d'images",
+            "bodyText": "- En python avec utilisation de Pytorch.\n - Reproduction d'images basée sur une vidéo de danse.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/yanisseF69/ATIV-TP-Dance"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "Deep learning",
+                "IA",
+                "Pytorch",
+                "Pillow",
+                "OpenCV"
+            ]
+        },
+        {
+            "image" : "images/projects/cubeWorld.png",
+            "title": "Synthèse d'images 3D",
+            "bodyText": "- Utilisation de C++ et de l'API 3D OpenGL\n- Modélisation d'un terrain rempli de cubes.\n- Couleur du cube varie selon la hauteur. ",
+            "tags" : [
+                "C++",
+                "OpenGL",
+                "Rendu 3D"
+            ]
+        },
+        {
+            "image" : "images/projects/laplacian.png",
+            "title": "Opérateur de Laplace sur un maillage",
+            "bodyText": "- Module en C++ permettant de charger un maillage sous format .off.\n - Implémentation de l'opérateur de Laplace pour calculer la courbure.",
+            "links": [
+                {
+                    "text": "Rapport",
+                    "href": "/Rapport_GAM.pdf"
+                }
+            ],
+            "tags" : [
+                "C++",
+                "Maillages",
+                "Géométrie",
+                "Laplacien"
+            ]
+        },
+        {
             "image" : "images/projects/surfaces.png",
             "title": "Courbes, surfaces de révolution et surfaces implicites",
             "bodyText": "- 1e partie sur les courbes de Bézier et Hermite Cubique Spline.\n- 2e partie : codage de primitives, d'opérations et de transformations. Et réalisation de formes complexes.",

@@ -55,6 +55,52 @@
             ]
         },
         {
+            "image": "images/projects/genCNN.png",
+            "title": "Deep Learning for Image Generation",
+            "bodyText": "- Implemented in Python using Pytorch.\n- Reproduces images based on a dance video.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/yanisseF69/ATIV-TP-Dance"
+                }
+            ],
+            "tags": [
+                "Python",
+                "Deep Learning",
+                "AI",
+                "Pytorch",
+                "Pillow",
+                "OpenCV"
+            ]
+        },
+        {
+            "image": "images/projects/cubeWorld.png",
+            "title": "3D Image Synthesis",
+            "bodyText": "- Utilized C++ and the OpenGL 3D API.\n- Modeled a terrain filled with cubes.\n- Cube color varies based on height.",
+            "tags": [
+                "C++",
+                "OpenGL",
+                "3D Rendering"
+            ]
+        },
+        {
+            "image": "images/projects/laplacian.png",
+            "title": "Laplacian Operator on a Mesh",
+            "bodyText": "- Module in C++ for loading a mesh in .off format.\n- Implementation of the Laplacian operator to calculate curvature.",
+            "links": [
+                {
+                    "text": "Report",
+                    "href": "/Rapport_GAM.pdf"
+                }
+            ],
+            "tags": [
+                "C++",
+                "Meshes",
+                "Geometry",
+                "Laplacian"
+            ]
+        },
+        {
             "image" : "images/projects/surfaces.png",
             "title": "Curves, revolution and implicit surfaces",
             "bodyText": "- 1rst part : Bézier et Hermite Cubique Spline curves.\n- 2nd part : coding of primitives, operations and transformations. Complex forms modeling.",

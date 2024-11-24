@@ -88,6 +88,12 @@
             "image": "images/projects/tpCV.png",
             "title": "Analyse d'images",
             "bodyText": "- Utilisation de Python, C++ et de la librairie OpenCV.\n- Partie 1 : Détections de contours en utilisant des filtres de convolutions.\n- 2e Partie : Implémentation de l'algorithme de la transformée de Hough pour détecter des lignes et des cercles.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/yanisseF69/mif17-analyse-d_images"
+                }
+            ],
             "tags": [
                 "C++",
                 "Python",

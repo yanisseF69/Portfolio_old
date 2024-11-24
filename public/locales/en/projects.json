@@ -88,6 +88,12 @@
             "image": "images/projects/tpCV.png",
             "title": "Image Analysis",
             "bodyText": "- Utilized Python, C++, and the OpenCV library.\n- Part 1: Edge detection using convolution filters.\n- Part 2: Implemented the Hough Transform algorithm to detect lines and circles.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/yanisseF69/mif17-analyse-d_images"
+                }
+            ],
             "tags": [
                 "C++",
                 "Python",

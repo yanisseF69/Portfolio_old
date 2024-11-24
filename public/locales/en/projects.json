@@ -83,7 +83,19 @@
                 "JsonCpp",
                 "Game"
             ]
-        },        
+        },
+        {
+            "image": "images/projects/tpCV.png",
+            "title": "Image Analysis",
+            "bodyText": "- Utilized Python, C++, and the OpenCV library.\n- Part 1: Edge detection using convolution filters.\n- Part 2: Implemented the Hough Transform algorithm to detect lines and circles.",
+            "tags": [
+                "C++",
+                "Python",
+                "OpenCV",
+                "Computer Vision",
+                "Hough Transform"
+            ]
+        },         
         {
             "image": "images/projects/cubeWorld.png",
             "title": "3D Image Synthesis",

@@ -85,6 +85,18 @@
             ]
         },
         {
+            "image": "images/projects/tpCV.png",
+            "title": "Analyse d'images",
+            "bodyText": "- Utilisation de Python, C++ et de la librairie OpenCV.\n- Partie 1 : Détections de contours en utilisant des filtres de convolutions.\n- 2e Partie : Implémentation de l'algorithme de la transformée de Hough pour détecter des lignes et des cercles.",
+            "tags": [
+                "C++",
+                "Python",
+                "OpenCV",
+                "Vision par ordinateur",
+                "Hough"
+            ]
+        },   
+        {
             "image" : "images/projects/cubeWorld.png",
             "title": "Synthèse d'images 3D",
             "bodyText": "- Utilisation de C++ et de l'API 3D OpenGL\n- Modélisation d'un terrain rempli de cubes.\n- Couleur du cube varie selon la hauteur. ",

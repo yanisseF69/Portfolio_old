@@ -118,7 +118,7 @@
             "bodyText": "- Module in C++ for loading a mesh in .off format.\n- Implementation of the Laplacian operator to calculate curvature.",
             "links": [
                 {
-                    "text": "Report",
+                    "text": "Report (French)",
                     "href": "/Rapport_GAM.pdf"
                 }
             ],

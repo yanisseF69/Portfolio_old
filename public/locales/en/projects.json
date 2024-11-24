@@ -74,6 +74,17 @@
             ]
         },
         {
+            "image": "images/projects/fightClub.png",
+            "title": "Turn-Based Fighting Game",
+            "bodyText": "- First project in game design and development.\n- Coded in C++ using the SDL2 and JsonCpp library.",
+            "tags": [
+                "C++",
+                "SDL2",
+                "JsonCpp",
+                "Game"
+            ]
+        },        
+        {
             "image": "images/projects/cubeWorld.png",
             "title": "3D Image Synthesis",
             "bodyText": "- Utilized C++ and the OpenGL 3D API.\n- Modeled a terrain filled with cubes.\n- Cube color varies based on height.",

@@ -34,6 +34,14 @@
                     "title": "OpenGL"
                 },
                 {
+                    "icon": "images/skills/sdl2.png",
+                    "title": "SDL2"
+                },
+                {
+                    "icon": "images/skills/qt.png",
+                    "title": "QT"
+                },
+                {
                     "icon": "images/skills/react.png",
                     "title": "React"
                 }
@@ -49,6 +57,10 @@
                 {
                     "icon": "images/skills/tensorflow.png",
                     "title": "Tensorflow"
+                },
+                {
+                    "icon": "images/skills/pytorch.png",
+                    "title": "PyTorch"
                 },
                 {
                     "icon": "images/skills/docker.png",

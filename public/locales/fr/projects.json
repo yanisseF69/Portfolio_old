@@ -55,6 +55,16 @@
             ]
         },
         {
+            "image" : "images/projects/cubeWorld.png",
+            "title": "Synthèse d'images 3D",
+            "bodyText": "- Utilisation de C++ et de l'API 3D OpenGL\n- Modélisation d'un terrain rempli de cubes.\n- Couleur du cube varie selon la hauteur. ",
+            "tags" : [
+                "C++",
+                "OpenGL",
+                "Rendu 3D"
+            ]
+        },
+        {
             "image" : "images/projects/genCNN.png",
             "title": "Deep learning pour de la Génération d'images",
             "bodyText": "- En python avec utilisation de Pytorch.\n - Reproduction d'images basée sur une vidéo de danse.",
@@ -102,16 +112,6 @@
                 "Hough"
             ]
         },   
-        {
-            "image" : "images/projects/cubeWorld.png",
-            "title": "Synthèse d'images 3D",
-            "bodyText": "- Utilisation de C++ et de l'API 3D OpenGL\n- Modélisation d'un terrain rempli de cubes.\n- Couleur du cube varie selon la hauteur. ",
-            "tags" : [
-                "C++",
-                "OpenGL",
-                "Rendu 3D"
-            ]
-        },
         {
             "image" : "images/projects/laplacian.png",
             "title": "Opérateur de Laplace sur un maillage",

@@ -55,6 +55,16 @@
             ]
         },
         {
+            "image": "images/projects/cubeWorld.png",
+            "title": "3D Image Synthesis",
+            "bodyText": "- Utilized C++ and the OpenGL 3D API.\n- Modeled a terrain filled with cubes.\n- Cube color varies based on height.",
+            "tags": [
+                "C++",
+                "OpenGL",
+                "3D Rendering"
+            ]
+        },
+        {
             "image": "images/projects/genCNN.png",
             "title": "Deep Learning for Image Generation",
             "bodyText": "- Implemented in Python using Pytorch.\n- Reproduces images based on a dance video.",
@@ -102,16 +112,6 @@
                 "Hough Transform"
             ]
         },         
-        {
-            "image": "images/projects/cubeWorld.png",
-            "title": "3D Image Synthesis",
-            "bodyText": "- Utilized C++ and the OpenGL 3D API.\n- Modeled a terrain filled with cubes.\n- Cube color varies based on height.",
-            "tags": [
-                "C++",
-                "OpenGL",
-                "3D Rendering"
-            ]
-        },
         {
             "image": "images/projects/laplacian.png",
             "title": "Laplacian Operator on a Mesh",

@@ -55,6 +55,17 @@
             ]
         },
         {
+            "image" : "images/projects/monteCarlo.png",
+            "title": "3D rendering",
+            "bodyText": "- Made with C++.\n- Usage of ray tracing.\n- Implementation of the Monte Carlo estimator. ",
+            "tags" : [
+                "C++",
+                "3D Rendering",
+                "Monte Carlo",
+                "Ray tracing"
+            ]
+        },
+        {
             "image": "images/projects/cubeWorld.png",
             "title": "3D Image Synthesis",
             "bodyText": "- Utilized C++ and the OpenGL 3D API.\n- Modeled a terrain filled with cubes.\n- Cube color varies based on height.",
@@ -81,6 +92,16 @@
                 "Pytorch",
                 "Pillow",
                 "OpenCV"
+            ]
+        },
+        {
+            "image": "images/projects/signal.png",
+            "title": "Signal process for images",
+            "bodyText": "- Made with Matlab.\n- Usage of Fourier transform for image process.",
+            "tags": [
+                "Matlab",
+                "Signal",
+                "Fourier"
             ]
         },
         {

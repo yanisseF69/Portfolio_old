@@ -55,9 +55,20 @@
             ]
         },
         {
+            "image" : "images/projects/monteCarlo.png",
+            "title": "Rendu 3D",
+            "bodyText": "- Réalisé en C++.\n- Utilisation du lancer de rayons.\n- Implémentation de l'estimateur de Monte Carlo.",
+            "tags" : [
+                "C++",
+                "Rendu 3D",
+                "Monte Carlo",
+                "Lancer de rayons"
+            ]
+        },
+        {
             "image" : "images/projects/cubeWorld.png",
-            "title": "Synthèse d'images 3D",
-            "bodyText": "- Utilisation de C++ et de l'API 3D OpenGL\n- Modélisation d'un terrain rempli de cubes.\n- Couleur du cube varie selon la hauteur. ",
+            "title": "Génération de terrain rempli de cubes",
+            "bodyText": "- Utilisation de C++ et de l'API 3D OpenGL.\n- Couleur du cube varie selon la hauteur. ",
             "tags" : [
                 "C++",
                 "OpenGL",
@@ -81,6 +92,16 @@
                 "Pytorch",
                 "Pillow",
                 "OpenCV"
+            ]
+        },
+        {
+            "image": "images/projects/signal.png",
+            "title": "Traitement du signal pour l'image",
+            "bodyText": "- Réalisé avec Matlab.\n- Utilisation de la transformée de Fourier le traitement d'images.",
+            "tags": [
+                "Matlab",
+                "Signal",
+                "Fourier"
             ]
         },
         {

@@ -3,8 +3,19 @@
     "projects" : [
         {
             "image" : "images/projects/diaphragm.gif",
-            "title": "Research in medical images",
-            "bodyText": "- Automatic segmentation of the diaphragm.\n - Deep learning and usage of **Transfer Learning**.\n - 3D organ reconstruction.",
+            "title": "Medical imaging research - Continued",
+            "bodyText": "- 3D organ reconstruction.",
+            "tags" : [
+                "Python",
+                "IA",
+                "Pytorch",
+                "MONAI"
+            ]
+        },
+        {
+            "image" : "images/projects/diaphragm.png",
+            "title": "Medical imaging research",
+            "bodyText": "- Automatic segmentation of the diaphragm.\n - Deep learning and usage of **Transfer Learning**.",
             "links": [
                 {
                     "text": "Report (French)",
@@ -174,6 +185,17 @@
                 "Geometric Modeling",
                 "Curves",
                 "Implicit surfaces"
+            ]
+        },
+        {
+            "image": "images/projects/fightClub.png",
+            "title": "Turn-Based Fighting Game",
+            "bodyText": "- First project in game design and development.\n- Coded in C++ using the SDL2 and JsonCpp library.",
+            "tags": [
+                "C++",
+                "SDL2",
+                "JsonCpp",
+                "Game"
             ]
         },
         {

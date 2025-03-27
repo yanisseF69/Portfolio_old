@@ -1,6 +1,19 @@
 {
     "experiences": [
         {
+            "title": "Recherche en Intelligence Artificielle",
+            "subtitle": "Institut Pascal - Université Clermont Auvergne",
+            "workType": "Stage",
+            "workDescription": [
+                "**Sujet: Intégration de modèle de langage dans 3D Slicer.**",
+                "État de l'art des recherches communes à notre problématique.",
+                "Implémentation de la soltion retenue.",
+                "Développement d'un module 3D Slicer intégrant le modèle de langage entraîné.",
+                "Possible publication d'un article dans le 'Journal of Open Source Software'."
+            ],
+            "dateText": "02/2025 – 07/2025"
+        },
+        {
             "title": "Développeur php/symfony",
             "subtitle": "Association Mantes Solidarité",
             "workType": "Stage",

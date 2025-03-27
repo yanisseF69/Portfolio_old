@@ -1,6 +1,19 @@
 {
     "experiences": [
         {
+            "title": "AI researcher",
+            "subtitle": "Institut Pascal - University Clermont Auvergne",
+            "workType": "Internship",
+            "workDescription": [
+                "**Topic: Language model integration in 3D Slicer.**",
+                "State of the art of research relevant to our problem.",
+                "Implementation of the chosen solution.",
+                "Development of a 3D Slicer module integrating the trained language model.",
+                "Possible publication of an article in the Journal of Open Source Software."
+            ],
+            "dateText": "02/2025 – 07/2025"
+        },
+        {
             "title": "Php/symfony developer",
             "subtitle": "Association Mantes Solidarité",
             "workType": "Internship",

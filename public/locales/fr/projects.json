@@ -108,7 +108,7 @@
         {
             "image": "images/projects/signal.png",
             "title": "Traitement du signal pour l'image",
-            "bodyText": "- Réalisé avec Matlab.\n- Utilisation de la transformée de Fourier le traitement d'images.",
+            "bodyText": "- Réalisé avec Matlab.\n- Utilisation de la transformée de Fourier pour le traitement d'images.",
             "tags": [
                 "Matlab",
                 "Signal",

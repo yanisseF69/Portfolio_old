@@ -47,6 +47,38 @@
             ]
         },
         {
+            "image" : "images/projects/imMedMouv.png",
+            "title": "Imagerie médicale et suivi de mouvement",
+            "bodyText": "- Manipulation de différentes modalités pour l'acquisition d'images médicales (IRM, Rayons X, Ultrasons).\n- Segmentation de poumons, conversion de la surface en maillage tétraédrique + création de la matrice de transformation T00 <-> T50 avec 3D Slicer.\n- Utilisation d'un algorithme de rétroprojection filtrée sur des scanners 2D pour réaliser une reconstruction 3D.",
+            "links": [
+                {
+                    "text": "Rapport Partie Segmentation",
+                    "href": "/Rapport_Segmentation.pdf"
+                },
+                {
+                    "text": "Rapport Partie IRM",
+                    "href": "/Rapport_IRM.pdf"
+                },
+                {
+                    "text": "Rapport Partie Rayons X",
+                    "href": "/Rapport_RX.pdf"
+                },
+                {
+                    "text": "Rapport Partie Ultrasons",
+                    "href": "/Rapport_Ultrasons.pdf"
+                }
+            ],
+            "tags" : [
+                "Imagerie médicale",
+                "Python",
+                "3D Slicer",
+                "Segmentation",
+                "IRM",
+                "Rayons X",
+                "Ultrasons"
+            ]
+        },
+        {
             "image" : "images/projects/drawing.png",
             "title": "Site de prédictions de dessins",
             "bodyText": "- Découverte du deep learning pour la classification d'images.\n - Usage de Tensorflow pour la construction de l'architecture et de l'entraînement.\n - Affichage du pourcentage de prédiction du TOP 3.",

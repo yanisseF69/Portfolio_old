@@ -47,6 +47,38 @@
             ]
         },
         {
+            "image": "images/projects/imMedMouv.png",
+            "title": "Medical Imaging and Motion Tracking",
+            "bodyText": "- Handling various modalities for medical image acquisition (MRI, X-rays, Ultrasound).\n- Lung segmentation, converting surface to tetrahedral mesh + creating the transformation matrix T00 <-> T50 with 3D Slicer.\n- Using a filtered back-projection algorithm on 2D scans to perform 3D reconstruction.",
+            "links": [
+                {
+                    "text": "Segmentation Report (French)",
+                    "href": "/Rapport_Segmentation.pdf"
+                },
+                {
+                    "text": "MRI Report (French)",
+                    "href": "/Rapport_IRM.pdf"
+                },
+                {
+                    "text": "X-rays Report (French)",
+                    "href": "/Rapport_RX.pdf"
+                },
+                {
+                    "text": "Ultrasound Report (French)",
+                    "href": "/Rapport_Ultrasons.pdf"
+                }
+            ],
+            "tags": [
+                "Medical Imaging",
+                "Python",
+                "3D Slicer",
+                "Segmentation",
+                "MRI",
+                "X-rays",
+                "Ultrasound"
+            ]
+        },
+        {
             "image" : "images/projects/drawing.png",
             "title": "Drawing predictions website",
             "bodyText": "- Discovering of deep learning for image classification.\n - Using Tensorflow for building architecture and training.\n - Display of TOP 3 prediction percentage.",

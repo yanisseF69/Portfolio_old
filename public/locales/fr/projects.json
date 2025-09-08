@@ -2,6 +2,40 @@
     "show" : "Voir plus",
     "projects" : [
         {
+            "image" : "images/projects/meshViewer.png",
+            "title": "Mesh Viewer",
+            "bodyText": "- Outil de visualisation 3D d'objets et de maillages supportant différents formats (.obj .off .txt).\n - Possibilité d'exporter l'objet dans ces mêmes formats.",
+            "links" : [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/yanisseF69/MeshViewer"
+                }
+            ],
+            "tags" : [
+                "C++",
+                "Qt",
+                "OpenGL"
+            ]
+        },
+        {
+            "image" : "images/projects/slicerGPT.gif",
+            "title": "SlicerGPT",
+            "bodyText": "- Extension 3D Slicer intégrant un chatbot local.\n - Fournit une aide contextuelle à l'aide de la scène et de la documentation officielle.",
+            "links" : [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/yanisseF69/SlicerSlicerGPT"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "IA",
+                "Pytorch",
+                "Transformers",
+                "Ollama"
+            ]
+        },
+        {
             "image" : "images/projects/diaphragm.gif",
             "title": "Recherche en imagerie médicale - Suite",
             "bodyText": "- Reconstruction 3D d'organes.",
@@ -27,6 +61,16 @@
                 "IA",
                 "Tensorflow",
                 "Keras"
+            ]
+        },
+        {
+            "image" : "images/projects/delaunay.png",
+            "title": "Traitement de maillages",
+            "bodyText": "- Opérateurs sur des maillages (division de triangle, échange d'arrêtes...).\n - Construction de maillage à partir de nuage de points.\n - Implémentation de l'algorithme de Lawsons pour obtenir un maillage \"de Delaunay\".",
+            "tags" : [
+                "C++",
+                "Maillages",
+                "Delaunay"
             ]
         },
         {
@@ -202,7 +246,7 @@
             ],
             "tags" : [
                 "C++",
-                "QT",
+                "Qt",
                 "Modélisation Géométrique",
                 "Courbes",
                 "Surfaces implicites"

@@ -2,6 +2,40 @@
     "show" : "Show more",
     "projects" : [
         {
+            "image" : "images/projects/meshViewer.png",
+            "title": "Mesh Viewer",
+            "bodyText": "- Developed a 3D visualization tool supporting multiple mesh formats (.off, .obj, .txt).\n - Implemented export functionalities to save meshes in the same formats.",
+            "links" : [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/yanisseF69/MeshViewer"
+                }
+            ],
+            "tags" : [
+                "C++",
+                "Qt",
+                "OpenGL"
+            ]
+        },
+        {
+            "image" : "images/projects/slicerGPT.gif",
+            "title": "SlicerGPT",
+            "bodyText": "- 3D Slicer extension that integrates a local AI chatbot.\n - Provide context-aware help using your scene and official documentation.",
+            "links" : [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/yanisseF69/SlicerSlicerGPT"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "AI",
+                "Pytorch",
+                "Transformers",
+                "Ollama"
+            ]
+        },
+        {
             "image" : "images/projects/diaphragm.gif",
             "title": "Medical imaging research - Continued",
             "bodyText": "- 3D organ reconstruction.",
@@ -27,6 +61,16 @@
                 "IA",
                 "Tensorflow",
                 "Keras"
+            ]
+        },
+        {
+            "image": "images/projects/delaunay.png",
+            "title": "Mesh Processing",
+            "bodyText": "- Mesh operators (triangle split, edge flip...).\n - Mesh construction from point clouds.\n - Implementation of Lawson's algorithm to obtain a \"Delaunay\" mesh.",
+            "tags": [
+                "C++",
+                "Meshes",
+                "Delaunay"
             ]
         },
         {

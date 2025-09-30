@@ -4,7 +4,7 @@
         {
             "image" : "images/projects/meshViewer.png",
             "title": "Mesh Viewer",
-            "bodyText": "- Developed a 3D visualization tool supporting multiple mesh formats (.off, .obj, .txt).\n - Implemented export functionalities to save meshes in the same formats.",
+            "bodyText": "- Developed a 3D visualization tool supporting multiple mesh formats (.off, .obj, .txt).\n - Implemented export functionalities to save meshes in the same formats.\n - Support for adding textures when the object allows it.",
             "links" : [
                 {
                     "text": "GitHub",

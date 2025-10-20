@@ -4,7 +4,7 @@
         {
             "image" : "images/projects/meshViewer.png",
             "title": "Mesh Viewer",
-            "bodyText": "- Outil de visualisation 3D d'objets et de maillages supportant différents formats (.obj .off .txt).\n - Possibilité d'exporter l'objet dans ces mêmes formats.\n - Ajout de textures lorsque l’objet le prend en charge.",
+            "bodyText": "- Outil de visualisation 3D d'objets et de maillages supportant différents formats (.obj .off .txt).\n - Possibilité d'exporter l'objet dans ces mêmes formats.\n - Ajout de textures lorsque l’objet le prend en charge.\n - Déploiement continu via GitLab CI.",
             "links" : [
                 {
                     "text": "GitHub",
